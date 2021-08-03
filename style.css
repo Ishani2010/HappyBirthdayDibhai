@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+body{
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    color: red;
+    background-color: pink;
+    margin: 20px;
+    padding: 50px;
+}
+img{
+    border-radius: 20px;
+    border: 2px solid white;
+}
+img:hover{
+    cursor: pointer;
+    border: 9px solid red;
+}
+@media screen and (max-width: 900px) {
+    img{
+        width: 240px;
+    }
+  }
